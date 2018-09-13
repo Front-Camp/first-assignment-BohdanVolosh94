@@ -8,6 +8,7 @@
  * isObject(null); // false
  */
 const isObject = data => {
+  return !!(data && data.constructor === Object);
   /* your logic here...*/
 };
 
